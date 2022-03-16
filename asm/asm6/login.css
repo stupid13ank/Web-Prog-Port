@@ -1,0 +1,92 @@
+body {  
+    background-color: #a9987f;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#mylogin{
+    text-align: center;
+}
+
+#myLogin h1{
+    font-size: 50px;
+    font-family: 'Mochiy Pop P One';
+    background-color: #8e7b5f;
+    color: white;
+    height: 100px;
+    text-align: center;   
+    padding-top: 25px;
+    margin-top: 13px;
+}
+
+#username {
+    margin-top: 40px;
+    margin: auto;
+    width: 400px;
+    height: 70px;
+    border: 4px solid #cabca8;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Mochiy Pop P One';
+    text-align: center;
+    outline: none;
+    
+}
+
+
+#password {
+    margin-top: 40px;
+    margin-left: auto;
+    width: 400px;
+    height: 70px;
+    border: 4px solid #cabca8;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Mochiy Pop P One';
+    outline: none;
+    text-align: center;
+}
+
+#Login {
+    margin-top: 40px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border: 4px solid #cabca8;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Mochiy Pop P One';
+    outline: none;
+    
+}
+
+#Login:hover {
+    border: none;
+    cursor: pointer;
+    background-color: #b49a74;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+}
+
+#Register {
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    border: 4px solid #cabca8;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Mochiy Pop P One';
+    padding-left: 10px;
+    outline: none;
+    text-align: center;
+}
+
+#Register:hover {
+    border: none;
+    cursor: pointer;
+    background-color: #b49a74;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+}

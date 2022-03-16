@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(pic/street-photography-top.jpg);
+    background-size: cover;
+}
+
+.grid-main-img > img{
+    width: 100%;
+    
+    
+}
+.grid-fotter-img > img{
+    width: 30%;
+    height: 30%;
+}
+
+ul.header_menu{
+    list-style-type: none;
+    
+   }
+.grid-container{
+    width: 90%;
+    max-width: 90%;
+    margin:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: black 15px 15px 40px;
+ 
+   
+}
+html { scroll-behavior : smooth; }
+.header{
+    width: 100%;
+    height: 50px;
+    background:#686A6C;
+}
+.navigrid{
+    display: grid;
+    grid-template-columns: 2fr 1fr
+}
+.grid-main{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background:#818386;
+    padding: 50px;
+    color: white;
+}
+
+.grid-main > div{
+    margin-left: 30px;
+}
+.grid-main-text h2{
+    font-size: 35px
+    
+}
+.grid-main-text >p{
+    font-size: 25px
+    
+}
+.grid-icon{
+    margin-top: 5px;
+    padding-left: 5%;;
+    color: #ff7b00
+   
+}
+ul.header_menu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5px;
+    margin-left: 50%;
+}
+.linkproject > a {
+    font-size: 30px;
+}
+ul.header_menu li a{
+   
+    font-size: 20px;
+    color: white ;
+    
+}
+ul.header_menu li a:hover {
+    text-decoration: none;
+    color: #ff7b00;
+    
+    
+}
+.skill,.interest,.hobbies > h3{
+    font-size: 35px;
+}
+
+.skill,.interest,.hobbies > li{
+    font-size: 25px;
+}
+
+ul li{
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+/* Footer */
+
+ul {
+    list-style-position: inside;
+}
+.footer {
+  
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background:#686A6C;
+    text-align: left;
+}
+
+ul.Contact_bullet li {
+    font-size: 30px;
+    color: white;
+    
+}
+
+ul.Contact_bullet li a{
+        font-size: 30px;
+        color: white;
+        
+}
+ul.Contact_bullet li a:hover {
+        text-decoration: none;
+        color: #ff7b00;
+        
+}
+.footer_contact h4{
+    font-size: 35px;
+    color: #ff7b00;
+}
+
+.source {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:#686A6C;
+    text-align: center;
+}
+.source h5{
+    font-size: 35px;
+    color: #ff7b00;
+    
+}
+.source a{
+    font-size: 30px;
+    color: white;
+    
+}
+.source a:hover {
+    text-decoration: none;
+    color: #ff7b00;
+}
+.grid-content-project > div{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+   
+}
+.grid-content-project{
+  
+    background:rgb(236, 236, 236);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+    
+}
+
+.grid-content-project-exp > div > img  {
+   width: 100%;
+}
+.grid-content-project-exp > div  {
+    margin: 20px;
+    
+ }
+.exp{
+   grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 2;
+  
+}
+.exp_content{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+   
+ }
+.grid-content-project-exp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: rgb(128, 128, 128) 15px 15px 40px;
+    background:rgb(236, 236, 236);
+    padding: 50px;
+    padding-top: 800px;
+    border-radius: 25px;
+    
+    
+}
+
+/* Content */
+.grid-content{
+    display: grid;
+    background:rgb(236, 236, 236);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.grid-content > div {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(114, 114, 114) 15px 15px 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    border-radius: 25px;
+}
+.grid-content-skill > ul {
+    list-style-type: none;
+}
+.grid-content-interest > ul {
+    list-style-type: none;
+}
+.grid-content-hobbies > ul {
+    list-style-type: none;
+}
+
+i{
+    margin-left: 5px;
+}
+
